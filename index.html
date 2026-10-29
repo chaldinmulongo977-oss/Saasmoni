@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MoniSaaS — Surveillance de vos sites et API</title>
+<meta name="theme-color" content="#4f46e5">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body{font-family:Poppins,system-ui,sans-serif}
+.fi{animation:fi .5s both}@keyframes fi{from{opacity:0;transform:translateY(14px)}}
+.fl{animation:fl 3s ease-in-out infinite}@keyframes fl{50%{transform:translateY(-10px)}}
+</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+<div id="app"></div><div id="toast" class="fixed bottom-4 left-1/2 z-50 -translate-x-1/2 rounded-full bg-slate-900 px-4 py-2 text-sm text-white hidden"></div>
+<script src="env.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
